@@ -1,0 +1,10 @@
+^D:\SANKET\FLUTTER PROJECT\FLUTTERR\FLUTTER_APPLICATION_1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Sanket/flutter project/flutterr/flutter_application_1/windows" "-BD:/Sanket/flutter project/flutterr/flutter_application_1/build/windows" --check-stamp-file "D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
