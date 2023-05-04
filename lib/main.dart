@@ -13,5 +13,5 @@ import 'package:flutter_application_1/screens/slider.dart';
 import 'package:flutter_application_1/screens/toastdemo.dart';
 
 void main() {
-  runApp(MyClass7());
+  runApp(calculator());
 }

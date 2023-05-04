@@ -142,16 +142,37 @@ class cal extends State<calculator> {
                         setState(() {
                           if (t1.text.contains("+")) {
                             var ls = t1.text.split("+");
-                            var a = int.parse(ls[0]);
-                            var b = int.parse(ls[1]);
+                            var a = double.parse(ls[0]);
+                            var b = double.parse(ls[1]);
                             var c = a + b;
                             t1.text = c.toString();
                           }
                           if (t1.text.contains("-")) {
                             var ls = t1.text.split("-");
-                            var a = int.parse(ls[0]);
-                            var b = int.parse(ls[1]);
+                            var a = double.parse(ls[0]);
+                            var b = double.parse(ls[1]);
                             var c = a - b;
+                            t1.text = c.toString();
+                          }
+                          if (t1.text.contains("X")) {
+                            var ls = t1.text.split("X");
+                            var a = double.parse(ls[0]);
+                            var b = double.parse(ls[1]);
+                            var c = a * b;
+                            t1.text = c.toString();
+                          }
+                          if (t1.text.contains("/")) {
+                            var ls = t1.text.split("/");
+                            var a = double.parse(ls[0]);
+                            var b = double.parse(ls[1]);
+                            var c = a / b;
+                            t1.text = c.toString();
+                          }
+                          if (t1.text.contains("%")) {
+                            var ls = t1.text.split("%");
+                            var a = double.parse(ls[0]);
+                            var b = double.parse(ls[1]);
+                            var c = a * b;
                             t1.text = c.toString();
                           }
                         });
