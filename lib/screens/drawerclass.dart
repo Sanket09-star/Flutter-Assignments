@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/demoButton.dart';
+
 import 'package:fluttertoast/fluttertoast.dart';
 
 class MyClass10 extends StatefulWidget {
@@ -22,7 +22,7 @@ class DrawerClass1 extends State<MyClass10> {
                 DrawerHeader(
                     decoration: BoxDecoration(color: Colors.blue),
                     child: Padding(
-                      padding: EdgeInsets.all(40),
+                      padding: EdgeInsets.all(10),
                       child: Text(
                         "User Information",
                         style: TextStyle(fontSize: 25, color: Colors.white),
