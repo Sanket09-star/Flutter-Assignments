@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/First.dart';
+import 'package:flutter_application_1/screens/Second.dart';
 import 'package:flutter_application_1/screens/additonprogram.dart';
 import 'package:flutter_application_1/screens/alertdialogue.dart';
 import 'package:flutter_application_1/screens/bottomnavigationbar.dart';
@@ -11,11 +13,18 @@ import 'package:flutter_application_1/screens/demobutton_padding.dart';
 import 'package:flutter_application_1/screens/drawerclass.dart';
 import 'package:flutter_application_1/screens/dynamicdatatable.dart';
 import 'package:flutter_application_1/screens/firstname_lastname.dart';
+import 'package:flutter_application_1/screens/routes1.dart';
 import 'package:flutter_application_1/screens/screen1.dart';
 import 'package:flutter_application_1/screens/simplecalculator.dart';
 import 'package:flutter_application_1/screens/slider.dart';
 import 'package:flutter_application_1/screens/toastdemo.dart';
 
 void main() {
-  runApp(MyClass11());
+  runApp(MaterialApp(
+    initialRoute: "/",
+    routes: {
+      '/': (context) => MyClass20(),
+      "/Second": (context) => MyClass21()
+    },
+  ));
 }

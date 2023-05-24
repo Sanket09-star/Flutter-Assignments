@@ -7,4 +7,6 @@ D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/De
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/NOTICES
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/packages/fluttertoast/assets/toastify.css
+D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/packages/fluttertoast/assets/toastify.js
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
