@@ -3,7 +3,9 @@ import 'package:flutter_application_1/screens/First.dart';
 import 'package:flutter_application_1/screens/Second.dart';
 import 'package:flutter_application_1/screens/additonprogram.dart';
 import 'package:flutter_application_1/screens/alertdialogue.dart';
+import 'package:flutter_application_1/screens/assignments.dart';
 import 'package:flutter_application_1/screens/bottomnavigationbar.dart';
+import 'package:flutter_application_1/screens/cardWidget.dart';
 import 'package:flutter_application_1/screens/color_selector.dart';
 import 'package:flutter_application_1/screens/column_widger.dart';
 import 'package:flutter_application_1/screens/container_with_BoxDecortion.dart';
@@ -20,11 +22,5 @@ import 'package:flutter_application_1/screens/slider.dart';
 import 'package:flutter_application_1/screens/toastdemo.dart';
 
 void main() {
-  runApp(MaterialApp(
-    initialRoute: "/",
-    routes: {
-      '/': (context) => MyClass20(),
-      "/Second": (context) => MyClass21()
-    },
-  ));
+  runApp(MyClass29());
 }
