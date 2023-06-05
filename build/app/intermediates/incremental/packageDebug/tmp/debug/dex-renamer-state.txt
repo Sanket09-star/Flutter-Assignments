@@ -1,4 +1,4 @@
-#Fri May 12 09:30:09 IST 2023
+#Mon Jun 05 19:21:37 IST 2023
 base.0=D\:\\Sanket\\flutter project\\flutterr\\flutter_application_1\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

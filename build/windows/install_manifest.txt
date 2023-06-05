@@ -1,6 +1,7 @@
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/icudtl.dat
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/flutter_windows.dll
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/assets/images/ani1.jpeg
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 D:/Sanket/flutter project/flutterr/flutter_application_1/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
